@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: black;
+    color: white;
+    font-family:"Poppins",sans-serif;
+}
+.navbar
+{
+    position:absolute;
+    top: 0px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 2% 6%;
+    column-gap:50vw;
+    z-index: 10;
+
+}
+.navbar_netflix
+{
+    height: 80%;
+    width: 100%;
+}
+.navbar_nav_item
+{
+  display: flex;
+  gap:30px;
+  height: 100%;
+  width: 100%;  
+}
+.nflxlogo
+{
+width: 80%;
+height: 100%;
+}
+
+.language_drop_down
+{
+    background:transparent;
+    border:none;
+    color: white;
+
+}
+
+.dropdown_container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius:4px;
+    background-color: #00000066;
+}
+.signin_button
+{
+    border: 1px solid rgb(214, 26, 9);
+    padding: 0.25em 0.5rem;
+    border-radius:4px;
+    background-color: rgb(228, 11, 11);
+    color:white ;
+    height: 35px;
+    width: 100px;
+}
+.hero_bg_img_cont
+{
+    height:100vh;
+    width: 100vw;
+}
+.hero_bg_img
+{
+    width: 100vw;
+    height:100vh;
+    object-fit:cover;   
+    opacity: 0.41;
+
+}
+/* .hero_overlay_image
+{
+    position: absolute;
+    inset: 1;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.7);
+    
+} */
+.hero_card
+{
+    position: absolute;
+    top: 43%;
+    left: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero_tittle
+{
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+.hero_Subtittle,hero_desc
+{
+font-weight: 450;
+font-size: 1.3rem;
+}
+
+.email{
+    width:450px;
+    height: 60px;
+    background: transparent;
+    padding: 0.25rem;
+    border-radius:3px;
+    border-color:rgb(228, 225, 225);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.submitt_button
+{
+    position: absolute;
+    top: 68%;
+    left: 30%;
+}
+.get_started
+{
+    width:120px;
+    height: 60px;
+    color: rgb(241, 10, 10);
+    padding: 0.25rem;
+    border-radius:3px;
+    background-color:rgb(202, 6, 6);
+    color: rgb(241, 237, 237);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.first
+    {
+        display:flex;
+        justify-content:center;
+        max-width: 70vh; 
+        margin: auto;
+        color: rgb(224, 226, 222);
+        column-gap: normal;
+    }
+.sepration{
+    height: 7px;
+    background-color: rgb(194, 189, 189);
+}
+.content
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+ .image
+{
+    display: flex;
+    position: relative;
+
+
+}
+.image img{
+    width: 30vw;
+    clip-path: margin-box;
+}
+
+.image video
+{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 13.1%;
+    height: 27.2vh;
+    top: 20.6%;
+}
+.image_2
+{
+    display: flex;
+    position: relative;
+
+
+}
+.image_2 img{
+    width: 30vw;
+    clip-path: margin-box;  /*used to overlay items*/
+}
+
+.image_2 video
+{
+
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 18.8%;
+    height: 23vh;
+    top: 9%;
+}
