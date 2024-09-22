@@ -1,4 +1,5 @@
 Project Structure Guide for Netflix Clone
+
 Welcome to the Netflix Clone project! Below is a guide to help you understand the structure of the project and how to access its various files.
 
 Project Structure
